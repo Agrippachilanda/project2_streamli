@@ -25,7 +25,7 @@ df= pd.read_csv('student_performance_data.csv')
 # In[88]:
 
 
-df
+#df
 
 
 # In[29]:
