@@ -61,7 +61,8 @@ plt.figure(figsize=(8, 6))
 plt.pie(major_counts, labels=major_counts.index, autopct='%1.1f%%', startangle=140)
 plt.title('Number of Candidates Registered for Each Major')
 plt.axis('equal') 
-plt.show()Calculate max, min, and mean GPA for each gender
+st.pyplot()
+#plt.show()Calculate max, min, and mean GPA for each gender
 gpa_stats = data.groupby('gender')['gpa'].agg(['max', 'min', 'mean']).reset_index()
 
 
